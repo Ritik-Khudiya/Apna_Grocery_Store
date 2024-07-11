@@ -340,14 +340,14 @@ const Sidebar = (props) => {
                         {
                             props.data.length !== 0 && props.data.map((item, index) => {
                                 return (
-                                    <a href={`/cat/${item.cat_name.toLowerCase()}`} onClick={()=>sessionStorage.setItem('cat',item.cat_name.toLowerCase())}>
+                                    <Link to={`/cat/${item.cat_name.toLowerCase()}`} onClick={()=>sessionStorage.setItem('cat',item.cat_name.toLowerCase())}>
                                         <div className='catItem d-flex align-items-center'>
                                             <span className='img'><img src={Category1} width={30} /></span>
                                             <h4 className='mb-0 ml-3 mr-3 text-capitalize'>{item.cat_name}</h4>
                                             <span className='d-flex align-items-center justify-content-center rounded-circle ml-auto'>
                                             {totalLength[index]}</span>
                                         </div>
-                                    </a>
+                                    </Link>
                                 )
                             })
 

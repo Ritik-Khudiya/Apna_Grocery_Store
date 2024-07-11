@@ -53,14 +53,14 @@ const Nav = (props) => {
                               <ul className='list list-inline mb-0'>
                                 
                                 <li className='list-inline-item'>
-                                  <Button><a href ='/' onClick={closenav}>Home</a></Button>
+                                  <Button><Link to ='/' onClick={closenav}>Home</Link></Button>
                                 </li>
                                     {
                                         navData.length !== 0 &&
                                         navData.map((item, index) => {        
                                           return(
                                               <li className='list-inline-item' key={index}>
-                                                     <Button onClick={closenav}><a href={`/cat/${item.cat_name.toLowerCase()}`} onClick={()=>sessionStorage.setItem('cat',item.cat_name.toLowerCase())}>{item.cat_name}<KeyboardArrowDownIcon/></a></Button>
+                                                     <Button onClick={closenav}><Link to={`/cat/${item.cat_name.toLowerCase()}`} onClick={()=>sessionStorage.setItem('cat',item.cat_name.toLowerCase())}>{item.cat_name}<KeyboardArrowDownIcon/></Link></Button>
                                                       {
                                                          item.items.length !==0 &&
                                                          <div className='dropdown_menu'>
@@ -70,9 +70,9 @@ const Nav = (props) => {
                                                                             return(
                                                                               <li key={index_}>
                                                                                 <Button onClick={closenav}>
-                                                                                   <a href={`/cat/${item.cat_name.toLowerCase()}/${item_.cat_name.replace(/\s/g,'-'.toLowerCase())}`} onClick={()=>sessionStorage.setItem('cat',item.cat_name.toLowerCase())}>
+                                                                                   <Link to={`/cat/${item.cat_name.toLowerCase()}/${item_.cat_name.replace(/\s/g,'-'.toLowerCase())}`} onClick={()=>sessionStorage.setItem('cat',item.cat_name)}>
                                                                                      {item_.cat_name}
-                                                                                   </a>
+                                                                                   </Link>
                                                                                 </Button>
                                                                               </li>
                                                                             )
@@ -95,7 +95,7 @@ const Nav = (props) => {
                             
                                 <li className='list-inline-item position-static '>
                                   <Button><Link onMouseEnter={mega2}>Mega menu<KeyboardArrowDownIcon/></Link></Button>
-                                   <div className={` megaMenu dropdown_menu w-100 row ${megafix==1? 'deactive':' '}`}>
+                                   <div className={` megaMenu dropdown_menu w-100 row ${megafix===1? 'deactive':' '}`}>
                                             <div className='row'>
 
                                                    {
@@ -140,17 +140,13 @@ const Nav = (props) => {
                                      </Button>
                                      <div className='dropdown_menu'>
                                       <ul>
-                                        <li><Button><Link to="/about">About Us</Link></Button></li>
-                                        <li><Button><Link to="/about">Contact</Link></Button></li>
-                                        <li><Button><Link to="/about">My Account</Link></Button></li>
-                                        <li><Button><Link to="/about">Login</Link></Button></li>
                                        
-                                        <li><Button><Link to="/about">Register</Link></Button></li>
-                                        <li><Button><Link to="/about">Forgot Password</Link></Button></li>
-                                        <li><Button><Link to="/about">Reset Password</Link></Button></li>
-                                        <li><Button><Link to="/about">Purchase Guide</Link></Button></li>
-                                        <li><Button><Link to="/about">Privacy Policy</Link></Button></li>
-                                        <li><Button><Link to="/about">Terms of Services</Link></Button></li>
+                                        <li><Button><Link to="/footer">Contact</Link></Button></li>
+                                        <li><Button><Link to="/">My Account</Link></Button></li>
+                                        <li><Button><Link to="/signIn">Login</Link></Button></li>
+                                       
+                                        <li><Button><Link to="/signUp">Register</Link></Button></li>
+                                       
                                         <li><Button><Link to="/about">404 Page</Link></Button></li>
                                       
                                       </ul>

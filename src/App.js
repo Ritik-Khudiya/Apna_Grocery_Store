@@ -140,6 +140,7 @@ function App() {
          <Route exact={true} path="/signUp" element={<Signup/>}> </Route>
           <Route exact={true} path="/signIn" element={<SignIn/>}> </Route> 
            <Route path="*" element={<NotFound/>}></Route> 
+          
          </Routes> 
          <Toaster />
          <br></br>
