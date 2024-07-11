@@ -298,7 +298,7 @@ const inputreview=(name,value)=>{
 
           </div>
 
-<div className="col-md-7 productinfo">
+       <div className="col-md-7 productinfo">
      <h5> {currentpro.productName}</h5>
      <div className="d-flex align-items-center mb-4">
 
@@ -382,7 +382,7 @@ const inputreview=(name,value)=>{
                       </div>
 
      
-</div>
+       </div>
 
         </div>
 
@@ -653,7 +653,7 @@ const inputreview=(name,value)=>{
 
                }
               </Slider>  
-             </div>
+        </div>
                
         
       </div>
