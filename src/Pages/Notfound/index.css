@@ -1,0 +1,4 @@
+.notfound{width: 100%;height: auto;padding: 5px 0px ;}
+.notfound .box{width: 50%; height: auto;display: flex;  align-items: center;flex-direction: column;margin: auto !important;}
+.notfound .box img{width: 50%; height: 50%;}
+.notfound .box p{margin-bottom: 0px !important;}

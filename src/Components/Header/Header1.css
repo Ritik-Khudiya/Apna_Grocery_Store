@@ -1,0 +1,54 @@
+header{
+    
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  
+   
+}
+.headerWrapper{position: sticky;top:0px;left: 0px;background-color: #fff;z-index: 100;} 
+.headerWrapper .part1 .search{margin-left: auto !important;}
+.col-sm-2 img {
+    padding-left: 5px;
+    
+    height: 55px;
+} 
+.headerWrapper .part3{height: 38px;}
+header .navbarToggle{margin-left: auto !important;}
+header .m{margin-right: 5px !important;}
+header .headersearch{
+   
+    width: 100%;
+    height: 40px;
+    border: 1px solid #bce3c9;
+    padding: 0px 15px;
+   
+}
+
+header .headersearch .selecrDropWrapper{width: 30%; font-size: 15px;font-weight: 500;position: relative;}
+header .headersearch .search{
+    width: 70%;
+    padding-left: 30px;
+    position: relative;
+}
+header .headersearch .selecrDropWrapper:after{content: ' ';width: 2px;height:15px;background: rgba(0,0,0,0.2);
+position: absolute;top:5px;right: 0px;}
+header .headersearch .search input{width: 100%; height: 30px; border: 0px;outline: none !important;padding:auto 0px;}
+header .headersearch .search .searchIcon{position: absolute;top:5px;right: 10px;opacity: 0.6;font-size: 20px;}
+header .countryWrapper{font-size: 15px !important;}
+header .countryWrapper .selecrDropWrapper{border: 1px solid #c3d1cb;width: 150px;height: auto;display: flex;align-items: center;box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);}
+header .countryWrapper .selecrDropWrapper .openSelect{color: rgb(44, 161, 93);}
+header .headerTabs{  margin-left: auto;}
+header .headerTabs li{position: relative;}
+header .headerTabs li span{font-size: 15px;cursor: pointer;margin: 0px 2px;}
+header .headerTabs li span .badge{background-color: rgb(243, 56, 35);border-radius: 33%;width:20px;height: 20px;position:absolute;top: -10px;left: -8px;font-size: 10px;}
+.dropMenu{position: absolute;padding-left:0px;height:auto; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);width: 150px;top:32px;right:0px;background: #fff;z-index: 10;}
+
+.dropMenu li{list-style: none;width: 100%;}
+
+.dropMenu li button{width: 100% !important; text-align:left !important; justify-content: flex-start !important;color: black; text-transform: capitalize !important;padding: 10px;}
+.dropMenu li button svg{margin-right: 6px;opacity: 0.7;}
+.dropMenu li button:hover{background-color: #3bb77e;color: white;}
+.sign { height: 40px !important; width: 90px !important;border-radius: 10px !important;}

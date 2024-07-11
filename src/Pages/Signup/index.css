@@ -1,0 +1,16 @@
+.loginWrapper{padding: 75px 0px; background-color:#f1f1f1;}
+.loginWrapper .card{width: 600px;margin: auto;padding: 40px;border: 0px !important; background-color: #fff; overflow:hidden  !important;}
+.loginWrapper .card h3{font-weight: 500;font-size: 25px;}
+.loginWrapper .card fieldset{border-radius: 10px !important;}
+.card input{height: 20px !important;color: black !important; font-size: 15px !important;}
+.loginWrapper .card .MuiFormLabel-root{line-height: 23px !important; color: black !important; font-size: 15px !important;}
+.loginWrapper .card  .icon{position: absolute;right: 20px;top: 10px; border-radius: 100% !important;color: #fff !important;}
+.loginWrapper .card  .icon svg{color: black !important;opacity: 0.8;}
+.loginWrapper .card link{padding: 15px 20px !important;}
+.signInOr button{padding: 10px 20px !important;color: #000 !important; font-size: 15px !important;}
+.signInOr button img{width: 20px !important;margin-right: 15px;}
+.formLoder{position: absolute !important;background-color: rgba(255,255,255,0.5) !important;}
+@media only screen and (min-width:320px)and (max-width:729px)
+{
+    .loginWrapper .card{width: 300px;}
+}

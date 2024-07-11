@@ -1,0 +1,6 @@
+.slider_main{padding: 20px 10px;}
+.slider_main img{border-radius: 30px;}
+.container-fluid .item{position: relative;}
+.container-fluid .item .info{position: absolute;top:10%;left: 10%;z-index: 90 !important;}
+.container-fluid .item .info h5{font-size: 40px !important;font-weight: 500;}
+.container-fluid .item .info p{font-size: 25px !important; font-weight: 400;color: rgba(0, 0,0,0.7);}

@@ -1,0 +1,28 @@
+.footerWrapper{padding: 40px 0px;width: 100%;}
+.footerWrapper .footerBox .box{background-color: #F4F6FA;padding:10px;border-radius: 20px;}
+.footerWrapper .footerBox .box .info{padding-left: 20px;}
+.footerWrapper .footerBox .box img{position: relative;transition: all 0.3s ease-in-out;}
+.footerWrapper .footerBox .box  img{height: 45px !important;}
+.footerWrapper .footerBox .box .info h5{font-size: 20px;font-weight: 600;}
+.footerWrapper .footerBox .box .info p{margin-bottom: 0px; opacity: 0.7;}
+.footerWrapper .footerBox .box:hover img{transform: translateY(-10px);}
+
+footer{padding: 60px 0px;padding-bottom: 0px;}
+footer a,footer p{font-size: 15px;font-weight: 500;}
+footer .part1 svg{color: #3bb77e;}
+footer .part2 h3{color: #000; font-weight: 600; margin-bottom: 20px; }
+footer .part2 ul {padding-left: 0px !important;}
+footer .part2 ul li { list-style: none; margin-bottom: 10px;}
+footer .part2 ul li a{color: #000; opacity: 0.8; font-size: 500; transition: all 0.2s ease-in-out;}
+footer .part2 ul li a:hover{text-decoration: none; color: #3bb77e !important; opacity: 1; padding-left: 5px;}
+.phNo{margin-left: auto;} 
+ .phNo svg{font-size: 40px;opacity: 0.7;}
+ .phNo h3{font-size: 25px;color: rgb(23, 174, 23) !important;}
+ .phNo p{font-size: 10px;}
+
+
+footer .lastStrip .part3 h5{margin-bottom: 0px;}
+footer .lastStrip .part3 ul{margin-bottom: 0px; padding-left: 25px;}
+footer .lastStrip .part3 ul li a{display: flex; align-items: center; justify-content: center; width: 40px; height:
+40px; background: #3bb77e; border-radius: 50%;color: #fff;transition: all 0.3s ease-in-out;}
+footer .lastStrip .part3 ul li a:hover{background:rgb(125, 120, 120) ;}

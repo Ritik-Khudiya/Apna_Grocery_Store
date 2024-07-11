@@ -1,0 +1,23 @@
+ .homeProduct{margin: 20px 0px;padding: 20px 20px;}
+ .homeProduct .container-fluid h5{font-size: 25px !important;}
+ .homeProduct .container-fluid .filterTab{margin-left: auto; margin-bottom: 0px;} 
+ .homeProduct .container-fluid .filterTab .fontsi{font-size: 16px !important;}
+ .homeProduct .container-fluid .filterTab li{margin:0px 7px } 
+ .homeProduct .container-fluid .filterTab li a{color: black;font-size: 20px;transition: all 0.3s ease-in-out;font-weight: 600;}
+ .homeProduct .container-fluid .filterTab li a:hover{color: #3bb77e !important; transform:scale(1.2) !important;}
+ .homeProduct .container-fluid .filterTab .act{color:#3bb77e}
+ .homeProduct  .productRow{display: flex;padding: 30px 0px;margin: 0px -10px;flex-wrap: wrap;}
+ .homeProduct  .productRow .item{width: 25%;height: auto;padding: 20px 15px;}
+ .homeProduct  .productRow.loading{opacity: 0.5;filter: blur(5px);}
+ .homewrapper .productRow .item{width: 20%}
+ .proSlider .slick-slide{padding: 0px 10px;}
+ .topProduct{ padding: 0px 20px;}
+ .homeProduct  .container-fluid .slick-slide .slick-arrow.slick-prev {top:0px !important;left:20px !important}
+ .newsLetterSection{width: 100%;height: auto;}
+ .newsLetterSection .box{background: url(../../assests/images/bg.png);width: 100%; height: auto;padding:20px 40px;border-radius: 20px;}
+ .newsLetterSection .box .info{width: 60%;}
+ .newsLetterSection .box .info h3{font-size: 50px;font-weight: 600;}
+ .newsLetterSection .box .info P{font-size: 20px; opacity: 0.7;}
+ .newsLetterSection .box .img{width: 40%;}
+ .newsLetterSection .box .img img{position: relative;top: 18px;}
+ .newsLetterSection .box .newsLetterBanner{position: relative !important;left: 0px !important;bottom: inherit !important;}

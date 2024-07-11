@@ -1,0 +1,11 @@
+
+.topSellingBox1 h3{font-size: 20px;position: relative;padding-bottom: 20px;margin-bottom: 20px;}
+.topSellingBox1 h3::after{content: '';width: 100%;height: 3px;background-color: chartreuse;position: absolute;bottom: 0px;left: 0px;}
+
+.topSellingBox1 h3::before{content: '';width: 30%;height: 3px;background-color: rgb(255, 21, 0);position: absolute;bottom: 0px;left: 0px;z-index: 10;}
+.topSellingBox1  .items{padding: 20px 0px;transition: all 0.3s ease-in-out;}
+.topSellingBox1  .items .img{width: 30% ; background-color:white;}
+.topSellingBox1  .items .info{width: 70% ;}
+.topSellingBox1  .items .info a{text-decoration: none !important; color: black; }
+.topSellingBox1  .items .info a h5{font-size: 14px !important; font-weight:  600 !important;}
+.topSellingBox1  .items:hover{transform: translateY(-10px);}

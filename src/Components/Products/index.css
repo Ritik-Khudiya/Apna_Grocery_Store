@@ -1,0 +1,33 @@
+.productThumb{width: 100%; height: auto;border: 1px solid rgba(0,0,0,0.5);overflow: hidden;border-radius: 10px;padding: 15px;transition: all 0.3s ease-in-out;position: relative;}
+.productThumb .badge{position: absolute;top:0px;left:0px;z-index: 10 !important;display: inline-block !important;background-color: rgb(231, 9, 9) !important;padding: 7px 20px!important;font-size: 15px;border-top-left-radius:24px;border-bottom-right-radius: 65px;text-transform: capitalize;}
+.productThumb .hot{background-color: rgb(29, 181, 241) !important;}
+.productThumb .new{background-color: rgb(255, 0, 102) !important;}
+.productThumb .good{background-color: rgb(155, 16, 225) !important;}
+.productThumb .best{background-color: rgb(32, 32, 138) !important;}
+.productThumb .imgWrapper{width: 100%;overflow: hidden;position: relative;}
+.productThumb .imgWrapper img{width: 100%;overflow: hidden;}
+.productThumb:hover{box-shadow: 0 3px 6px rgba(0,0,0,0.2)}
+.productThumb:hover .imgWrapper img{transform: scale(1.07);}
+.productThumb .imgWrapper .overlay{position: absolute;top:0px;left: 0px;width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;opacity: 0;transform: scale(1.03);}
+.productThumb:hover .imgWrapper .overlay{opacity: 1;}
+.productThumb .imgWrapper .wrapper{height: 200px ;overflow:hidden;}
+
+.productThumb .imgWrapper .overlay ul{background-color: #fff;width: 107px ;border: 1px solid #3bb77e;height:auto;border-radius: 6px;}
+.productThumb .imgWrapper .overlay ul li{margin-right: 0px !important;border-right: 1px solid #3bb77e; }
+.productThumb .imgWrapper .overlay ul li a{display: block !important;padding: 5px !important;}
+.productThumb .imgWrapper .overlay ul li a svg{width: 24px !important;height: 21px !important;color: #3bb77e !important;}
+.productThumb .imgWrapper .overlay ul li a:hover svg{color: rgb(255, 18, 18) !important;}
+
+.container-fluid .item .info h5 {
+    font-size: 19px;
+    font-weight: 400;
+}
+.brandName h5 a{text-decoration: none;color:rgba(0,0,0,0.5) !important;}
+.title a{color: rgba(0,0,0);}
+.productThumb .info1 h5{font-size: 15px !important;font-weight: 700;}
+.productThumb .info1 .d-flex button{margin-left:auto}
+.productThumb .info1 .oldPrice{margin-left: auto;}
+.productThumb .info1 a{text-decoration: none;}
+
+.productThumb button {text-transform: capitalize; font-size: 20px !important;color: red !important;padding: 5px 0px !important; background-color: #ccc7c7 !important;}
+.productThumb button:hover {color: #fff !important;background-color: #3bb77e !important;}
