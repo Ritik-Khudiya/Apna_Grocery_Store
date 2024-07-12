@@ -1,6 +1,6 @@
 @media only screen and (min-width:320px)and (max-width:575px) {
 
-  .nav nav, .dropdownAcc{width: 80% !important;}
+  .nav nav, .dropdownAcc{width: 60% !important;}
   .slider_main img{border-radius: 10px !important;}
   .container-fluid .slider_main .item .info h5{font-size: 6vw !important;}
   .container-fluid .slider_main .item .info p{font-size: 4vw !important;}
